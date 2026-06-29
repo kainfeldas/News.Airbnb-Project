@@ -83,3 +83,100 @@
     background-color: #f7f7f7 !important;
     color: #222222 !important;
 }
+/* 1. Social Follow Icon Settings */
+.social-link {
+    color: #717171; /* Airbnb brand neutral gray */
+    font-size: 1.35rem;
+    transition: color 0.2s ease-in-out;
+    text-decoration: none !important;
+}
+.social-link:hover {
+    color: #ff385c; /* Smooth morph into Airbnb red */
+}
+
+/* 2. Carousel Arrow Controls */
+.arrow-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50% !important;
+    border: 1px solid #b0b0b0 !important;
+    background-color: #ffffff !important;
+    color: #222222 !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: all 0.2s ease-in-out;
+}
+.arrow-btn:hover {
+    border-color: #222222 !important;
+    background-color: #f7f7f7 !important;
+    transform: scale(1.04);
+}
+
+/* 3. News By Topic Image Hover Zoom Frame */
+.topic-img-wrapper {
+    overflow: hidden;
+    position: relative;
+}
+.topic-img-wrapper img {
+    transition: transform 0.4s ease-in-out;
+    width: 100%;
+}
+.custom-topic-card:hover {
+    cursor: pointer;
+}
+.custom-topic-card:hover .topic-img-wrapper img {
+    transform: scale(1.05); /* Clean zoom boundary expansion */
+}
+
+/* 4. Cultural Mission Section */
+.custom-culture-desc-card {
+    background-color: #f7f7f7; /* Soft gray card backing context */
+    transition: all 0.3s ease-in-out;
+}
+.culture-title {
+    color: #222222;
+    font-size: 1.75rem;
+}
+.custom-culture-img-card:hover,
+.custom-culture-desc-card:hover {
+    transform: translateY(-4px); /* Interactive vertical card-lift */
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+
+/* 5. Production Footer Refinements */
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+.footer-links li {
+    margin-bottom: 10px;
+}
+.footer-links a {
+    color: #717171 !important;
+    font-size: 0.88rem;
+    text-decoration: none !important;
+    transition: color 0.15s ease-in-out;
+}
+.footer-links a:hover {
+    color: #222222 !important;
+    text-decoration: underline !important;
+}
+.legal-text {
+    font-size: 0.88rem;
+    color: #222222;
+}
+.legal-text a {
+    color: #222222 !important;
+}
+.legal-text a:hover {
+    text-decoration: underline !important;
+}
+.dot-separator {
+    color: #717171;
+    font-size: 0.75rem;
+}
+.regional-settings a:hover {
+    text-decoration: underline !important;
+}
